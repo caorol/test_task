@@ -18,7 +18,7 @@ object TestTransactions {
 
   def main(args: Array[String]): Unit = {
     log("getValue(UserService.create(\"olive\")) ************** start")
-    val olive = getValue(UserService.create("test"))
+    val olive = getValue(UserService.create("olive"))
     log(s"$olive")
     log("end ********************************************************")
     getValue(UserService.create3("a", "b", "c"))
